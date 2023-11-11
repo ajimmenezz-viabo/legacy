@@ -1,0 +1,184 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+ * Magenta #F10B74
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,400,500,600&display=swap');
+
+@font-face {
+	font-family: 'Avenir Next LT Pro Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir Next LT Pro Regular'), url('fonts/AvenirNextLTPro-Regular.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Avenir Next LT Pro Demi';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir Next LT Pro Demi'), url('fonts/AvenirNextLTPro-Demi.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Avenir Next LT Pro Demi Italic';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir Next LT Pro Demi Italic'), url('fonts/AvenirNextLTPro-DemiIt.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Avenir Next LT Pro Bold';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir Next LT Pro Bold'), url('fonts/AvenirNextLTPro-Bold.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Avenir LT Std 55 Roman';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir LT Std 55 Roman'), url('fonts/AvenirLTStd-Roman.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Avenir LT Std 35 Light';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir LT Std 35 Light'), url('fonts/AvenirLTStd-Light.woff') format('woff');
+}
+
+@font-face {
+	font-family: 'Avenir LT Std 65 Medium';
+	font-style: normal;
+	font-weight: normal;
+	src: local('Avenir LT Std 65 Medium'), url('fonts/AvenirLTStd-Medium.woff') format('woff');
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 21px;
+	color: #FFF;
+	background-color: #000;
+	font-family: "Avenir Next LT Pro Regular", Sans-Serif;
+}
+
+section{
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+	position: absolute;
+	z-index: 9999;
+}
+
+#header .slogan{
+	padding: 20px 0px;
+}
+
+#header .social{
+	padding: 25px 0px;
+	text-align: right;
+}
+
+#main h3,
+#header h3{
+	font-family: 'Avenir Next LT Pro Bold';
+	font-size: 25px;
+	color: #0d054a;
+}
+
+#header h3 span{
+	color: #fe1ca0;
+}
+
+#main{
+	margin-bottom: 30px;
+}
+
+#main .logo{
+	text-align: center;
+	overflow: hidden;
+	margin-top: -185px;
+	margin-bottom: -185px;
+}
+
+#main .logo video{
+	height: 1080px;
+}
+
+#header h5{
+	font-family: 'Avenir Next LT Pro Bold';
+	font-size: 18px;
+}
+
+#header h5 span{
+	font-family: 'Avenir Next LT Pro Demi';
+}
+
+#main h5{
+	font-family: 'Avenir Next LT Pro Bold';
+	font-size: 15px;
+	color: #0d054a;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #fe1ca0;
+}
+
+#main h5 span{
+	font-family: 'Avenir Next LT Pro Demi';
+}
+
+#main ul{
+	margin: 0;
+	padding: 0px 0px 0px 15px;
+}
+
+#footer{
+	padding: 30px 15px 15px 15px;
+}
+
+#footer a{
+	color: #daf000 !important;
+}
+
+@media only screen and (max-width:700px) {
+	
+	#header h3{
+		font-family: 'Avenir Next LT Pro Bold';
+		font-size: 20px;
+		color: #0d054a;
+	}
+	
+	#main .logo{
+		text-align: center;
+		overflow: hidden;
+		margin-left: -60px;
+		margin-top: -30px;
+		margin-bottom: -90px;
+	}
+	
+	#main .logo video{
+		height: 450px !important;
+	}
+	
+	
+	#header .slogan{
+		padding: 10px 0px 0px 0px;
+	}
+
+	#header .social{
+		padding: 0px 0px 0px 0px;
+		text-align: left;
+	}
+
+
+}
+	

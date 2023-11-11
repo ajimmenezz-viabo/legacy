@@ -1,0 +1,269 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*
+ * Dark 	#241F20 	
+ * Amarillo #CAFF00		
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500&family=Poppins:wght@400;500&display=swap');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+	color: #808080;
+	background-color: #FFF;
+	font-family: "Maven Pro", Sans-Serif;
+	letter-spacing: -0.5px;
+	overflow-x: hidden;
+}
+
+section{
+	float: left;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+#header{
+	position: absolute;
+}
+
+.logo{
+	padding: 28px 15px;
+}
+
+.logo img{
+	width: 100px;
+}
+
+.menu{
+	padding: 37.5px 25px;
+}
+
+ul.nav{
+	float: right;
+}
+
+ul.nav li{
+	padding: 30px 24px;
+}
+
+ul.nav li a{
+	font-family: "Maven Pro", Sans-Serif;
+	font-weight: 500;
+	color: #FFF;
+}
+
+#header{
+	position: absolute;
+}
+
+#slider{
+	height: 100vh;
+	background-color: #241F20;
+	color: #FFF;
+	padding-top: 40vh;
+}
+
+#waves-1,
+#waves-2{
+	position: absolute;
+}
+
+#waves-1{
+	top: 700px;
+	left: -750px;
+}
+
+#waves-2{
+	top: 200px;
+	right: -750px;
+}
+
+#instagram,
+#productos{
+	padding: 60px 0px;
+	background-color: #ECEEF2;
+}
+
+#instagram img{
+	max-width: 100%;
+}
+
+#soluciones{
+	padding: 60px 0px;
+	background: linear-gradient(-7deg, #241F20 0%, #241F20 32.5%, transparent 32.5%);
+}
+
+#integracion{
+	padding: 60px 0px;
+	background-color: #241F20;
+	color: #FFF;
+}
+
+#integracion h2{
+	color: #CAFF00;
+}
+
+#integracion .btn-line{
+	color: #CAFF00;
+	border-color: #CAFF00 ;
+}
+
+#call-to-action{
+	padding: 60px 0px;
+	background-color: #CAFF00;
+}
+
+#testimoniales{
+	padding: 60px 0px;
+	background-color: #FFF;
+}
+
+#testimoniales .bg-light{
+	padding: 25px 20px;
+	background-color: #ECEEF2 !important;
+}
+
+#testimoniales .testimonial{
+	background-color: #FFF !important;
+	margin-bottom: 30px;
+	margin-left: -40px;
+	padding: 30px;
+	position: relative;
+	box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.08);	
+}
+
+ul.pasos li{
+	padding: 15px 0px 12px 0px;
+	border-bottom: 2px solid #6C56AB;
+}
+
+ul.pasos li h4{
+	color: #231F20;
+}
+
+#footer{
+	padding: 60px 0px 90px 0px;
+	background-color: #241F20;
+}
+
+#footer a{
+	color: #FFF;
+}
+
+#copyright{
+	background-color: #241F20;
+	color: #FFF;
+	font-size: 13px;
+}
+
+#copyright a{
+	color: #CAFF00;
+}
+
+.btn-primary{
+	color: #000 !important;
+	background-color: #CAFF00;
+	border-radius: 30px;
+	padding: 5px 15px;
+	font-family: "Maven Pro", Sans-Serif;
+	font-weight: 500;
+	border: 0;
+}
+
+.btn-secondary{
+	color: #FFF !important;
+	background-color: #000;
+	border-radius: 30px;
+	padding: 5px 15px;
+	font-family: "Maven Pro", Sans-Serif;
+	font-weight: 500;
+	border: 0;
+}
+
+.btn-line{
+	color: #661FFF;
+	background-color: transparent;
+	border: 2px solid #957AE7;
+	border-radius: 30px;
+	padding: 5px 15px;
+	font-family: "Maven Pro", Sans-Serif;
+	font-weight: 500;
+}
+
+.logo-footer img{
+	width: 200px;
+	margin-bottom: 30px;
+}
+
+.h-400{
+	height: 200px;
+}
+
+h1,
+h2,
+h3{
+	font-family: "Poppins", Sans-Serif;
+	font-weight: 500;
+	letter-spacing: -0.25px;
+	color: #000;
+}
+
+h1{
+	font-size: 3rem;
+	color: #FFF;
+}
+
+h2{
+	font-size: 2.5rem;
+}
+
+h3{
+	color: #957AE7;
+}
+
+h2 small{
+	line-height: 10px !important;
+	font-weight: 500;
+}
+
+a:hover{
+	outline: none;
+	text-decoration: none;
+}
+
+
+@media only screen and (max-width:700px) {
+
+	body{
+		
+		overflow-x: hidden;
+	}
+	
+	.h-400{
+		height: 360px;
+	}
+	
+	#waves-1{
+		display: none;
+	}
+
+	#waves-2{
+		position: absolute;
+		top: 200px;
+		right: -750px;
+	}
+	
+	h2{
+		font-size: 1.75rem;
+	}
+	
+	#copyright{
+		text-align: center !important;
+	}
+}
